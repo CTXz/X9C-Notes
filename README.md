@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # Renesas X9C Notes
 
+![](Sweep.gif)
+
 The following repository contains a couple of my own notes regarding the X9C series digital potentiometer ICs by Renesas. This repository shall not act as a substitute to the datasheet, but rather provide some practical insight.
 
 <!-- omit in toc -->
@@ -255,7 +257,7 @@ Returns the current wiper position
 
 ---
 
-In the following example the brightness of an LED by continuously incrementing the wiper upwards until the maximum wiper position is reached. Then the wiper is moved back to its lowest position.
+In the following example the brightness of an LED is swept (as demonstrated in the gif at the start of this README) by continuously incrementing the wiper upwards until the maximum wiper position is reached. Then the wiper is moved back to its lowest position.
 
 The X9C chip is wired up as it follows:
 
