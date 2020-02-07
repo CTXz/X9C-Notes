@@ -42,6 +42,8 @@ void x9c::set(uint8_t pos)
 
     digitalWrite(ud, ud_state);
 
+    // 2.9 us delay negligible
+
     // Move wiper
     for (uint8_t i = 0; i < n_pulses; i++)
     {
