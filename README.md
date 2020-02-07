@@ -272,7 +272,7 @@ The X9C chip is wired up as it follows:
 
 ![](Arduino.png)
 
-Altough the X9C series potentiometers can only output a maximum of 4.4mA on the wiper pin, it won't hurt adding a current limiting resistor before the LED.
+Altough the X9C series potentiometers can only output a maximum of 4.4mA on the wiper pin, it doesn't hurt adding a current limiting resistor before the LED.
 
 <!-- omit in toc -->
 [Main.ino](Arduino/Main.ino)
