@@ -37,10 +37,12 @@ The X9C series digital potentiometer ICs can be easily purchased from ebay, alie
 
 # Pinout
 
-<center>![](pinout.png)</center>
+<p align="center">
+  <img src="pinout.png">
+</p>
 
 |Pin Number|Pin|Description|
-|----------|---|----|-----------|
+|----------|---|-----------|
 |1|INC|The INC input is negative-edge triggered. Toggling INC will move the wiper and either increment or decrement the counter in the direction indicated by the logic level on the U/D input.|
 |2|U/D|The U/D input controls the direction of the wiper movement and whether the counter is incremented or decremented.|
 |3|Vh/Rh|The high (Vh/Rh) terminals of the X9C102, X9C103, X9C104, X9C503 are equivalent to the fixed terminals of a mechanical potentiometer. The minimum voltage is -5V and the maximum is +5V. The terminology of VH/RH and Vl/Rl references the relative position of the terminal in relation to wiper movement direction selected by the U/D input and not the voltage potential on the terminal.|
