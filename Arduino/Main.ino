@@ -34,7 +34,7 @@ void loop()
   while(true)
   {
     // Sweep wiper up
-    for (uint8_t i = 0; i < 100; i++) {
+    for (uint8_t i = 0; i < 98; i++) {
       x9c102.increment(true, 1);
       delay(50);
     }

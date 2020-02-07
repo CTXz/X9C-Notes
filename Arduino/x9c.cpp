@@ -29,9 +29,9 @@ x9c::x9c(uint8_t inc, uint8_t cs, uint8_t ud) : inc(inc), cs(cs), ud(ud)
     pinMode(ud, OUTPUT);
     
     // Since we cannot predict which tap point is used at initialization, 
-    // we must assume the highest possible tap point (100) and move the
-    //  wiper down by 100 positions!
-    wiper_pos = 100;
+    // we must assume the highest possible tap point (99) and move the
+    //  wiper down by 99 positions!
+    wiper_pos = 99;
     set(0);
 }
 
@@ -42,9 +42,9 @@ void x9c::set(uint8_t pos)
         return;
     }
 
-    if (pos > 100)
+    if (pos > 99)
     {
-        pos = 100; // Pot only has 100 tap points!
+        pos = 99; // Pot only has 100 tap points!
     }
 
     digitalWrite(cs, LOW);
@@ -82,9 +82,9 @@ void x9c::set(uint8_t pos)
 
 void x9c::increment(bool up, uint8_t n)
 {
-    if (n > 100)
+    if (n > 99)
     {
-        n = 100;
+        n = 99;
     }
 
     if (up || (wiper_pos - n >= 0)) // Prevent underflow when incrementing wiper down
