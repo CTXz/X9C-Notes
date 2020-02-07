@@ -2,7 +2,7 @@
   <img src="Sweep.gif">
 </p>
 
-The following repository contains a couple of my own notes regarding the X9C series digital potentiometer ICs by Renesas. This repository shall not act as a substitute to the datasheet, but rather provide some practical insight.
+The following repository contains a couple of my own notes regarding the X9C series digital potentiometer ICs by Renesas.
 
 <!-- omit in toc -->
 # Contents
