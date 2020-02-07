@@ -1,6 +1,3 @@
-<!-- omit in toc -->
-# Renesas X9C Notes
-
 <p align="center">
   <img src="Sweep.gif">
 </p>
