@@ -87,7 +87,7 @@ Incrementing the wiper down by two positions
 
 # Driver
 
-The section provides pseudocode that could be used to drive an X9C series digital potentiometer using a microcontroller. No assumptions are made regarding the speed of the host peripheral, meaning timing is explicitly taking into account.
+The section provides pseudocode that could be used to drive an X9C series digital potentiometer using a microcontroller. No assumptions are made regarding the speed of the host peripheral, meaning timing is explicitly taken into account.
 
 For a practical implementation of this pseudocode, refer to the Arduino section below.
 
